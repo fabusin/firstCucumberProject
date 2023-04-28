@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.46 s <<< FAILURE! - in runners.TestRunner
+Items Management.As a user, I am able to create and delete an item in DB and check the item in DB  Time elapsed: 1.059 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "utilities.DataReader.property" is null
+
+Items Management.As a user, I am able to create and delete an item in DB and check the item in DB  Time elapsed: 1.086 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "utilities.DataReader.property" is null
+
